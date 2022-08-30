@@ -15,8 +15,8 @@ app.get('/', function(req, res){
   });
 })
 
-app.get('/split/my_split/:number', function(req, res){
-    res.status(200).send(split.my_split(req.params.number));
+app.get('/split/:number', function(req, res){
+    res.status(200).send(split.my_split(req.params.number).toString());
 })
 
 app.get('/evenAndOdd/isEven/:number', function(req, res){
