@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const split = require('./split.js');
+const evenAndOdd = require('./evenAndOdd.js');
+
 const fs = require('fs');
 
 app.get('/', function(req, res){
@@ -18,7 +20,7 @@ app.get('/split/my_split/:number', function(req, res){
 })
 
 app.get('/evenAndOdd/isEven/:number', function(req, res){
-  res.status(200).send(evenAndOdd.isPrime(req.params.number));
+  res.status(200).send(evenAndOdd.isEven(req.params.number));
 })
 
 exports.stop = function(){
