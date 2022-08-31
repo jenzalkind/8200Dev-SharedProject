@@ -1,0 +1,21 @@
+{
+  "name": "8200dev-sharedproject",
+  "version": "1.0.1",
+  "description": "",
+  "main": "evenAndOdd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenzalkind/8200Dev-SharedProject.git"
+  },
+  "keywords": [],
+  "author": "user <furyanaor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenzalkind/8200Dev-SharedProject/issues"
+  },
+  "homepage": "https://github.com/jenzalkind/8200Dev-SharedProject#readme"
+}
